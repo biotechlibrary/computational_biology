@@ -7,7 +7,7 @@ dna_length =len(DNA)
 
 print(dna_length)
 
-    #Optional counting feature. ["x=whatever out of: ACTG you want to count"]
+    #Optional counting feature. ["x=whatever out of: ACTG you want to SUM"]
 
 countX=DNA.count('X')
 print(countX)
