@@ -1,18 +1,16 @@
-#Pau
-#July 10th 2022
-#Assignment 5
+
 
     #Get user input
 
-DNA=input("Enter a short DNA sequence between 10 and 20bp") 
+DNA=input("Enter desired section of bp in a DNA sequence") 
 dna_length =len(DNA)
 
 print(dna_length)
 
-    #Count the input
+    #Optional counting feature. ["x=whatever out of: ACTG you want to count"]
 
-countA=DNA.count('A')
-print(countA)
+countX=DNA.count('X')
+print(countX)
 
     #DNA to RNA
 
